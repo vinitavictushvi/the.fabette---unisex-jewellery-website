@@ -58,3 +58,27 @@ src/
 │   ├── collections.js        # 4 core maximal matrices (Rings, Earrings, etc.)
 │   └── products.js
 └── main.jsx
+
+
+
+
+## 🚀 Execution Guide
+
+### 1. Replicate the Architecture
+```bash
+git clone [https://github.com/YOUR_USERNAME/the.fabette-unisex-jewellery-website.git](https://github.com/YOUR_USERNAME/the.fabette-unisex-jewellery-website.git)
+cd the.fabette
+
+
+PORT=5000
+EMAIL_USER=maison_management_email@gmail.com
+EMAIL_PASS=your_secure_smtp_app_password
+
+cd my-backend-server
+npm install
+node server.js
+
+
+cd my-app
+npm install
+npm run dev
