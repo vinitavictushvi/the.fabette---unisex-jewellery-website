@@ -62,23 +62,49 @@ src/
 
 
 
+Markdown
 ## 🚀 Execution Guide
 
 ### 1. Replicate the Architecture
+Clone the repository files down to your local developer workstation and navigate into the root project directory:
 ```bash
 git clone [https://github.com/YOUR_USERNAME/the.fabette-unisex-jewellery-website.git](https://github.com/YOUR_USERNAME/the.fabette-unisex-jewellery-website.git)
 cd the.fabette
+2. Configure Environment Keys
+Navigate into your core server directory (my-backend-server/), create a highly secured .env configuration file, and append your production SMTP authorization credentials:
 
 
+Code snippet
 PORT=5000
 EMAIL_USER=maison_management_email@gmail.com
 EMAIL_PASS=your_secure_smtp_app_password
 
+
+
+3. Initiate Ecosystem Channels
+Open two independent terminal instances inside VS Code to boot up both structural execution nodes simultaneously:
+
+Terminal 1 — Backend Architecture Activation:
+
+Bash
 cd my-backend-server
 npm install
 node server.js
 
 
+Terminal 2 — Frontend UI Launch:
+
+Bash
 cd my-app
 npm install
 npm run dev
+
+
+
+
+🔒 Security Compliance Protocol
+Environment Insulation: Local environment variables (.env) hosting private keys and SMTP configuration tokens are completely isolated from commits to avoid authorization vulnerabilities.
+
+Data Leakage Prevention: The automated local system database ledger (orders_history.json) logging client analytics remains completely masked from public repository deployment.
+
+Exclusion Shields: Bulky node dependency trees (node_modules/) along with temporary cache states are aggressively filtered using a rigid .gitignore block to ensure a lightweight, secure, and production-ready source repository.
