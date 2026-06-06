@@ -1,0 +1,20 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.hero {
+  background: url("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338")
+    center/cover no-repeat;
+}
+
+.tracking {
+  letter-spacing: 6px;
+}
+.luxury-img {
+  transition: 0.5s;
+}
+.luxury-img:hover {
+  transform: scale(1.05);
+}
